@@ -26,16 +26,6 @@ The system now includes authentication with two roles:
   - Update availability
 - View home page
 
-## Setup Instructions
-
-### 1. Update Environment Variables
-Make sure your `.env` file includes:
-```
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/university_timetable
-NODE_ENV=development
-JWT_SECRET=your-very-secure-jwt-secret-change-in-production
-```
 
 ### 2. Install Backend Dependencies
 ```bash

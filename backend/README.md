@@ -26,20 +26,7 @@ cd backend
 npm install
 ```
 
-### Configuration
 
-Create a `.env` file:
-
-```bash
-cp .env.example .env
-```
-
-Edit `.env`:
-```
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/university_timetable
-NODE_ENV=development
-```
 
 ### Database Setup
 
